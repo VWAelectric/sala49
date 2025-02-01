@@ -57,6 +57,28 @@
     echo $carros[0][0]; //Saída: Volvo
     echo "<br>";
     echo $carros[3][0]; //Saída: Land Rover
+    echo "<br>";
+    echo "<br>";
+    $pessoas = array(
+        array("Maria", "(11) 95555-5555", "maria@hotmail.com"),
+        array("José", "(11) 96666-5555", "jose@hotmail.com"),
+        array("Marcos", "(11) 97777-5555", "marcos@hotmail.com"),
+        array("Andrea", "(11) 98888-5555", "andrea@hotmail.com"),
+    );
+    // Para incluir pessoas 
+    $pessoas [] = array("Luana", "(11) 98888-9999", "luana@hotmail.com");
+    
+    echo $pessoas[0][0]; //Saída: Maria
+    echo "<br>";
+    echo $pessoas[3][1]; //Saída: (11) 98888-5555
+    echo "<br>";
+    echo $pessoas[1][2]; //Saída: jose@hotmail.com
+    echo "<br>";
+    echo $pessoas[4][2]; //Saída: jose@hotmail.com
+    echo "<br>";
+    echo  count($pessoas); //Saída: 4(conta intens)
+    echo "<br>";
+
     ?>
 
 </body>
